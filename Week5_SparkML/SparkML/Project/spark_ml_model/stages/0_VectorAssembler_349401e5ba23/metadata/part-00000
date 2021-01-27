@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1610987731799,"sparkVersion":"3.0.1","uid":"VectorAssembler_349401e5ba23","paramMap":{"outputCol":"features","inputCols":["ad_id","target_audience_count","has_video","is_cpm","is_cpc","ad_cost","day_count"]},"defaultParamMap":{"outputCol":"VectorAssembler_349401e5ba23__output","handleInvalid":"error"}}

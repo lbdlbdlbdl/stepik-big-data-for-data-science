@@ -1,0 +1,38 @@
+﻿Запуск PostgreSQL (Выполнять из папки Week1/Postgres)
+
+1) Запуск контейнеров
+    docker-compose up -d
+
+2) Проверка запущенных контейнеров
+    docker ps
+
+3) Соединение к БД
+    host: localhost
+    port: 5555
+    database: course
+    login: admin
+    password: admin
+
+4) Выполнение SQL
+    ...
+
+5) Остановка контейнеров
+    docker-compose down
+
+
+
+Запуск ClickHouse (Выполнять из папки Week1/ClickHouse)
+
+1) Запуск контейнеров
+    docker-compose up -d
+
+2) Проверка запущенных контейнеров
+    docker ps
+3) Соединение к БД
+    host: localhost
+    port: 8123
+    database:
+    login:
+    password:
+
+4) Выполнение SQL
